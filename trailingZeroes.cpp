@@ -3,16 +3,12 @@
 using namespace std;
 int main()
 {
-    int n;
+    ll n;
     cin >> n;
-    int mx = 0; 
     ll ans = 0;
-    for (int i = 0; i < n; ++i)
+    for (ll i = 5; n / i >= 1; i *= 5)
     {
-        int x;
-        cin >> x;
-        mx = max(x, mx);
-        ans += mx - x;
+        ans += n / i;
     }
     cout << ans;
     return 0;

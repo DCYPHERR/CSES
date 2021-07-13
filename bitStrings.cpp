@@ -3,17 +3,12 @@
 using namespace std;
 int main()
 {
-    int n;
+    ll n, s = 1;
     cin >> n;
-    int mx = 0; 
-    ll ans = 0;
     for (int i = 0; i < n; ++i)
     {
-        int x;
-        cin >> x;
-        mx = max(x, mx);
-        ans += mx - x;
+        s = 2 * s % ((int)1e9 + 7);
     }
-    cout << ans;
+    cout << s;
     return 0;
 }
