@@ -3,7 +3,7 @@
 My solutions to CSES problem statements
 
 
-References 
+## References 
 
 Number Spiral -> https://www.quora.com/Why-does-the-sum-of-consecutive-odds-starting-from-1-create-square-numbers
 
