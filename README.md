@@ -10,3 +10,5 @@ Number Spiral -> https://www.quora.com/Why-does-the-sum-of-consecutive-odds-star
 Two Knights -> https://math.stackexchange.com/questions/3266257/number-of-ways-two-knights-can-be-placed-such-that-they-dont-attack/3266324
 
 Chessboard Queens -> https://www.geeksforgeeks.org/number-of-ways-to-place-two-queens-on-a-nn-chess-board/
+
+Palindrome
